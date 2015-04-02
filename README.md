@@ -26,6 +26,7 @@ void deleteAvlTree(void* avlTreeVar);
 /* Other definitions. */
 
 typedef int (*COMPARE_AVLNODE)(void* key1, void* key2);
+
 typedef enum{
     AVL_SUCCESS = 0,
     AVL_FAILURE
