@@ -4,7 +4,6 @@ AVL Dynamic Link Library
 /* API of manipulation to Avl tree */
 
 /* 1. Create avl tree with node comparsion function. (void*)key is the pointer of user-defined element that needs to be stored in AVL tree, and some elements in (void*)key are used to act as index of node in the tree. */
-
 void* creatAvlTree(COMPARE_AVLNODE compareFunc);
 
 /* 2. Insert an element into AVL tree. (void*)key is the pointer of user-defined structure that stores information.*/
