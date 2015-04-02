@@ -7,7 +7,7 @@ AVL Dynamic Link Library
 
 void* creatAvlTree(COMPARE_AVLNODE compareFunc);
 
-/* 2. Insert an element into AVL tree. (void*)key is the pointer of user-defined structure that stores information.*/
+/* 2. Insert an element into AVL tree. (void*)key is the pointer of user-defined structure that stores information. */
 
 avl_ret insertIntoAvlTree(void* avlTreeVar, void* key);
 
